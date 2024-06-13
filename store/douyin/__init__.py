@@ -8,7 +8,6 @@ import config
 
 from .douyin_store_impl import *
 
-
 class DouyinStoreFactory:
     STORES = {
         "csv": DouyinCsvStoreImplement,
